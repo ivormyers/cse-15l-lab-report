@@ -48,7 +48,11 @@
         }
     }
 
+Which methods in your code are called
+What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
+If those values change, how they change by the time the request is done processing
 
 ![First Added Word](PhotosLab2/markDownPhoto1.png)
 
+This first photo 
 
