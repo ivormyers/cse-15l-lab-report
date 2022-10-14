@@ -1,1 +1,3 @@
-![Test ScreenShot](/Users/ivor/Documents/GitHub/cse-15l-lab-report/firstscreenshot.png)
+![Test ScreenShot](firstscreenshot.png)
+
+# [Link To Main Page](https://ivormyers.github.io/cse-15l-lab-report/)
