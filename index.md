@@ -8,5 +8,4 @@ read this text
 [Lab Report 1](lab-report-1-week-0.html)
 
 
-[Lab Report Test 2](https://<ivormyers>.github.io/<cse-15l-lab-report>/lab-report-1-week-0.html)
-  *This one doesnt work* 
+[Lab Report 2](lab-report-2.html)
