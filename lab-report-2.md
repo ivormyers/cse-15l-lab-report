@@ -49,6 +49,6 @@
     }
 
 
-![First Added Word](/Users/ivor/Documents/GitHub/cse-15l-lab-report/PhotosLab2/markDownPhoto1.png)
+![First Added Word](PhotosLab2/markDownPhoto1.png)
 
 
