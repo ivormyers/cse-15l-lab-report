@@ -11,5 +11,7 @@ read this text
 
 [Lab Report 2](lab-report-2.html)
 
+[Lab Report 3](lab-report-3.html)
+
 this is the new lab here
 
