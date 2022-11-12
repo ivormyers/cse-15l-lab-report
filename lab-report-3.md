@@ -107,6 +107,8 @@ I wanted to see if there are just plain empty lines in the files, and there are 
 
 ### "grep -n"
 Grep -n shows you the line of the match within the file. 
+**Example 1**
+
     ivor@Ivors-Air docsearch % grep -n "DNA" technical/biomed/*.txt 
     technical/biomed/1471-2105-3-28.txt:10:          G, C, and T for the four nucleotides found in DNA
     technical/biomed/1471-2105-3-28.txt:24:          n has the value of 2 for DNA and 5
