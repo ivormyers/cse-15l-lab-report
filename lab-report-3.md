@@ -1,6 +1,8 @@
 # Week 5 Lab Report: Researching Commands
 </br></br> 
+
 ## Command-Line Options For ***grep***
+
 </br>
 
 ### Grep Headliner
@@ -8,6 +10,7 @@
 </br> 
 
 ### '''grep -i '''
+
  </br> grep -i searches for the inputed keyword, but disregards capitalization.</br>
 
 **Example 1**
@@ -22,7 +25,9 @@
 
 
 </br>
+
 In this case we are searching the files in technical for the phrase "We found that", but the capitalization does not matter. This is useful becuase when doing this search we don't necessarily carse if that phrase is the start of the scentence, and -i will find it with or without 'W' being capitalized. 
+
 </br></br>
 
 **Example 2**
@@ -48,6 +53,7 @@ I wanted to provide this case to demonstrate that numbers and symbols have no ef
     ivor@Ivors-Air docsearch % grep -i "rna" technical/biomed/*.txt > RNAlinecount.txt
 
 </br> 
+
 With an easy command such as this one above, you can store all the lines in the entire biomed file that contain rna, with any capitalization, and then observe or use that file as need be. 
 
 </br></br>
@@ -123,10 +129,12 @@ You can use this to quickly jump to specific parts of files since the line is mo
     technical/biomed/rr191.txt:67:        pathways. We found that insulin probably inhibits SP-A gene
     technical/biomed/rr191.txt:474:        We found that wortmannin and rapamycin had no effect on
 
-    </br>
-    This case shows us how it returns the exact same thing as the grep -i of "We found that" but with the line added.
+</br>
+
+This case shows us how it returns the exact same thing as the grep -i of "We found that" but with the line added.
 
 **Example 3** 
+
     ivor@Ivors-Air docsearch % grep -v -n " " technical/biomed/*.txt    
     technical/biomed/rr166.txt:1:
     technical/biomed/rr167.txt:1:
