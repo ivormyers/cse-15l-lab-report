@@ -1,17 +1,17 @@
 # Week 5 Lab Report: Researching Commands
-</br></br> 
+
 
 ## Command-Line Options For ***grep***
 
-</br>
+
 
 ### Grep Headliner
 
-</br> 
+
 
 ### '''grep -i '''
 
- </br> grep -i searches for the inputed keyword, but disregards capitalization.</br>
+grep -i searches for the inputed keyword, but disregards capitalization.
 
 **Example 1**
 
@@ -24,11 +24,11 @@
     //more followed
 
 
-</br>
+
 
 In this case we are searching the files in technical for the phrase "We found that", but the capitalization does not matter. This is useful becuase when doing this search we don't necessarily carse if that phrase is the start of the scentence, and -i will find it with or without 'W' being capitalized. 
 
-</br></br>
+
 
 **Example 2**
 
@@ -46,20 +46,20 @@ In this case we are searching the files in technical for the phrase "We found th
 
 I wanted to provide this case to demonstrate that numbers and symbols have no effect on -i. This is due to the case that -i only considers letters and capitalization. So i expect any and all files with " 59" to be returned.
 
-</br></br>
+
 
 **Example 3**
 
     ivor@Ivors-Air docsearch % grep -i "rna" technical/biomed/*.txt > RNAlinecount.txt
 
-</br> 
+
 
 With an easy command such as this one above, you can store all the lines in the entire biomed file that contain rna, with any capitalization, and then observe or use that file as need be. 
 
-</br></br>
+
 
 ### "grep -v"
-</br></br>
+
 
 **Example 1**
 
@@ -67,11 +67,11 @@ With an easy command such as this one above, you can store all the lines in the 
     technical/biomed/gb-2003-4-9-r58.txt:        interest. The presence of four such repeats in invertebrate
     technical/biomed/gb-2003-4-9-r58.txt:        Kv3 channels and six in vertebrate Kv3 K +channels may help
     technical/biomed/gb-2003-4-9-r58.txt:        amino-acid mutations in this domain can affect
-</br></br>
+
 
 The -v makes it so the only lines that are returned are those without what is in the quotation. This a valueable tool which you can use to fine lines or sections within files that are **not** about a certain topic.
 
-</br>
+
 
 **Example 2**
 
@@ -83,9 +83,11 @@ The -v makes it so the only lines that are returned are those without what is in
     Server.java
     lib
     technical
-</br>
+
+
 Combining ls with the grep -v command allows you to return all the files that do not contain your parameters. This can be used to not have to see files or a certain type when searching or not show a group of names of files that you had earlier set. 
-</br></br>
+
+
 
 **Example 3**
 
@@ -98,10 +100,10 @@ Combining ls with the grep -v command allows you to return all the files that do
     technical/biomed/1471-2091-2-10.txt:
     //many more below
 
-</br>
+
 I wanted to see if there are just plain empty lines in the files, and there are plenty. You can do with as you see, and either pry more to see if its a line break of is uncessary and can be delted.
 
-</br></br>
+
 
 ### "grep -n"
 Grep -n shows you the line of the match within the file. 
@@ -115,7 +117,8 @@ Grep -n shows you the line of the match within the file.
     technical/biomed/1471-2105-3-30.txt:414:        DNA (a module). Ahab ignores distances between binding
     technical/biomed/1471-2105-3-34.txt:2
 
-</br>
+
+
 You can use this to quickly jump to specific parts of files since the line is more given information. 
 
 **Example 2**
@@ -129,7 +132,7 @@ You can use this to quickly jump to specific parts of files since the line is mo
     technical/biomed/rr191.txt:67:        pathways. We found that insulin probably inhibits SP-A gene
     technical/biomed/rr191.txt:474:        We found that wortmannin and rapamycin had no effect on
 
-</br>
+
 
 This case shows us how it returns the exact same thing as the grep -i of "We found that" but with the line added.
 
@@ -145,5 +148,6 @@ This case shows us how it returns the exact same thing as the grep -i of "We fou
     technical/biomed/rr37.txt:1:
     technical/biomed/rr73.txt:1:
     technical/biomed/rr74.txt:1:
+
 
 With this quick test I found out that all the rr files dont have any text on thier first line. 
