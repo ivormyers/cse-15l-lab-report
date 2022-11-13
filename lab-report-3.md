@@ -91,7 +91,7 @@ Combining ls with the grep -v command allows you to return all the files that do
 
 **Example 3**
 
-    ivor@Ivors-Air docsearch % grep -v " " technical/biomed/*.txt         
+    ivor@Ivors-Air docsearch % grep -v " " technical/biomed/*.txt     
     technical/biomed/1468-6708-3-1.txt:
     technical/biomed/1468-6708-3-10.txt:
     technical/biomed/1468-6708-3-3.txt:
@@ -99,6 +99,7 @@ Combining ls with the grep -v command allows you to return all the files that do
     technical/biomed/1468-6708-3-7.txt:
     technical/biomed/1471-2091-2-10.txt:
     //many more below
+
 
 
 I wanted to see if there are just plain empty lines in the files, and there are plenty. You can do with as you see, and either pry more to see if its a line break of is uncessary and can be delted.
