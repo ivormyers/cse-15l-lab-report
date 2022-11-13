@@ -63,11 +63,22 @@ With an easy command such as this one above, you can store all the lines in the 
 
 **Example 1**
 
-    technical/biomed/gb-2003-4-9-r58.txt:        voltage-sensor) in non-vertebrate Kv3 K +channels is of
-    technical/biomed/gb-2003-4-9-r58.txt:        interest. The presence of four such repeats in invertebrate
-    technical/biomed/gb-2003-4-9-r58.txt:        Kv3 channels and six in vertebrate Kv3 K +channels may help
-    technical/biomed/gb-2003-4-9-r58.txt:        amino-acid mutations in this domain can affect
-
+    ivor@Ivors-Air docsearch % grep -v "DNA" technical/biomed/*.txt 
+    technical/biomed/gb-2003-4-7-r43.txt:          Spatial proximity of constrained word pairs
+    technical/biomed/gb-2003-4-7-r43.txt:          The second requirement for a conserved sequence
+    technical/biomed/gb-2003-4-7-r43.txt:          template involved constraints on spatial arrangements
+    technical/biomed/gb-2003-4-7-r43.txt:          between individual words. Any method that evaluates
+    technical/biomed/gb-2003-4-7-r43.txt:          spacing distributions between word pairs must take into
+    technical/biomed/gb-2003-4-7-r43.txt:          account positional biases that may be present for
+    technical/biomed/gb-2003-4-7-r43.txt:          individual words (A.M. Moses, unpublished results). We
+    technical/biomed/gb-2003-4-7-r43.txt:          used a permutation test to evaluate the significance of
+    technical/biomed/gb-2003-4-7-r43.txt:          the median of minimum distances, excluding overlaps,
+    technical/biomed/gb-2003-4-7-r43.txt:          between conserved word pairs. By permuting the TCR labels
+    technical/biomed/gb-2003-4-7-r43.txt:          for one of the words, but not the word positions
+    technical/biomed/gb-2003-4-7-r43.txt:          themselves, we retained the positional biases of
+    technical/biomed/gb-2003-4-7-r43.txt:          individual words within intergenic regions. Within any
+    technical/biomed/gb-2003-4-7-r43.txt:          given TCR 
+    //more lines after
 
 The -v makes it so the only lines that are returned are those without what is in the quotation. This a valueable tool which you can use to fine lines or sections within files that are **not** about a certain topic.
 
