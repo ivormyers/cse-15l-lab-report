@@ -33,10 +33,10 @@ This next step involves pressing "n.lved" which finds the next case of "start", 
 At this point the "start"s in the file have been changed to "base", so we can save and exit using :w<Enter>
 
 
-
+<br><br>
 
 ## Part 2: Comparing The Times
-<br><br>
+<br>
 
 ### Performing the actions in VS Code: 105 Seconds
 I feel this performace was a bit slower becuase my scp address was not incredibly accessible. 
